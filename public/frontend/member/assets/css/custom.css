@@ -1,0 +1,181 @@
+/* custom styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden
+}
+
+.custom-primary-color {
+    color: #007089;
+}
+
+.custom-primary-background {
+    background: #007089;
+}
+
+.custom-secondary-color {
+    color: #CE9A30;
+}
+
+.main-box {
+    background: #ffff;
+}
+
+/* .profile-box{
+} */
+.person-image {
+    border: 4px solid #007089;
+}
+
+.person-name {
+    color: #0c0c0c;
+}
+
+.designation {
+    color: #000;
+}
+
+.save-contact-btn {
+    background: #007089 !important;
+}
+
+.save-contact-btn:hover {
+    background: #CE9A30 !important;
+}
+
+.location-email-box {
+    border: 1px solid #ddd !important;
+}
+
+.location-email-icon {
+    color: #007089 !important;
+}
+
+.location-email-icon:hover {
+    color: #CE9A30 !important;
+}
+
+.phone {
+    background: #007089;
+}
+
+.facebook {
+    background: #457DF6;
+}
+
+.twitter {
+    background: #000;
+}
+
+.whatsapp {
+    background: #29978A;
+}
+
+.linkedin {
+    background: #1884BC;
+}
+
+.instagram {
+    background: #E4405F;
+}
+
+.youtube {
+    background: #DF3B3B;
+}
+
+.messenger {
+    background: #1878FF;
+}
+
+/* share your profile toaster */
+.toast {
+    visibility: hidden;
+    min-width: 200px;
+    max-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* social links copy to clipboard */
+.toast2 {
+    visibility: hidden;
+    min-width: 200px;
+    max-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.toast2.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast2.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* phone number copy to clipboard */
+.toast3 {
+    visibility: hidden;
+    min-width: 200px;
+    max-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.toast3.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toast3.hide {
+    visibility: hidden;
+    opacity: 0;
+}
