@@ -1,0 +1,21 @@
+
+
+your-base-url/custom-middleware-secure-gate
+
+
+--------
+
+super admin 
+
+shefat.global@gmail.com
+
+019244Php
+
+
+----
+
+admin 
+
+ishefat@outlook.com
+
+019244Pass
